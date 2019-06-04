@@ -1,6 +1,6 @@
-package com.zyp.permutations.impl;
+package permutations.impl;
 
-import com.zyp.permutations.Permutation;
+import permutations.Permutation;
 
 import java.util.*;
 
@@ -74,6 +74,9 @@ public class InsertPermutation implements Permutation {
     /**
      *
      * @return 该数据插入基数链表每一位形成的String列表
+     * 便利链表长度i
+     * 复制基连链表
+     * 将number插入i位置
      */
     private void insertPermutation(int number,LinkedList<Integer> linkedList){
         LinkedList<Integer> tmp = null;

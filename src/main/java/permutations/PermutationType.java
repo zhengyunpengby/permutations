@@ -1,4 +1,4 @@
-package com.zyp.permutations;
+package permutations;
 
 public enum PermutationType {
     /**
